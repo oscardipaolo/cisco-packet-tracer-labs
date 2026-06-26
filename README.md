@@ -20,6 +20,13 @@ Parte de mi proceso de formación en IT Support / Redes.
 - Configuración de ip helper-address en el router
 - Las PCs reciben IP automáticamente sin configuración manual
 
+- ### Lab 4 — VLANs en switch Cisco
+- 4 PCs conectadas a un switch Cisco 2960
+- VLAN 10 (Administración): PC0 y PC1 en puertos Fa0/1 y Fa0/2
+- VLAN 20 (Sistemas): PC2 y PC3 en puertos Fa0/3 y Fa0/4
+- Verificación de aislamiento: PCs en VLANs distintas no se comunican
+- Comandos: vlan, switchport mode access, switchport access vlan, show vlan brief
+
 ## Herramientas
 - Cisco Packet Tracer
 - Router: Cisco 1941
